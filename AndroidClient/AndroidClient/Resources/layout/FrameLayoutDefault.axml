@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayout1"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Subscription Name"
+                android:layout_width="201.9dp"
+                android:layout_column="0"
+                android:id="@+id/txtvw10"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="3pt"
+                android:textSize="8pt" />
+            <TextView
+                android:textColor="#FFFFFF"
+                android:text="Text"
+                android:layout_column="1"
+                android:paddingLeft="3pt"
+                android:textSize="6pt"
+                android:id="@+id/txtselectedsubname"
+                android:layout_width="177.3dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:textColor="#FFFFFF"
+                android:text="Total Cost"
+                android:layout_width="201.9dp"
+                android:layout_column="0"
+                android:paddingLeft="3pt"
+                android:textSize="8pt"
+                android:id="@+id/textView12" />
+            <TextView
+                android:textColor="#FFFFFF"
+                android:text="Text"
+                android:layout_column="1"
+                android:paddingLeft="3pt"
+                android:textSize="6pt"
+                android:id="@+id/txtselectedsubcost"
+                android:layout_width="177.3dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:textColor="#FFFFFF"
+                android:text="Last 5 Day Average"
+                android:layout_width="201.9dp"
+                android:layout_column="0"
+                android:paddingLeft="3pt"
+                android:textSize="8pt"
+                android:id="@+id/textView14" />
+            <TextView
+                android:text="Text"
+                android:layout_column="1"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="3pt"
+                android:layout_width="177.3dp"
+                android:textSize="6pt"
+                android:id="@+id/txtselectedsubavg" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_span="2">
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_column="0"
+                android:textSize="8pt"
+                android:id="@+id/textView15" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Top 5 Resources"
+            android:textColor="#FFFFFF"
+            android:layout_column="0"
+            android:paddingLeft="3pt"
+            android:textSize="8pt"
+            android:layout_span="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView16" />
+        <GridView
+            android:paddingTop="5px"
+            android:layout_span="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/top5GVCtrl"
+            android:fadeScrollbars="false"
+            android:overScrollMode="always"
+            android:scrollbars="vertical"
+            android:smoothScrollbar="true"
+            android:soundEffectsEnabled="true" />
+        <TextView
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView16" />
+        <TextView
+            android:text="Regions"
+            android:paddingLeft="3pt"
+            android:textColor="#FFFFFF"
+            android:layout_column="0"
+            android:textSize="8pt"
+            android:layout_span="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView17" />
+        <GridView
+            android:paddingTop="5px"
+            android:layout_span="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/regionGVCtrl" />
+    </LinearLayout>
+</LinearLayout>

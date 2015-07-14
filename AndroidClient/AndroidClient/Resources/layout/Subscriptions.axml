@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:id="@+id/Main"
+    p1:orientation="vertical"
+    p1:background="@android:color/holo_blue_dark">
+    <TextView
+        p1:text="Welcome"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/txtloginas"
+        p1:textColor="#FFFFFF"
+        p1:paddingLeft="3pt"
+        p1:textSize="6pt" />
+    <GridView
+        p1:paddingTop="15px"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:id="@+id/gvCtrl"
+        p1:layout_marginTop="10pt" />
+</LinearLayout>

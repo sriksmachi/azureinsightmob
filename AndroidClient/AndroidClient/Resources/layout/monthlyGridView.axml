@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout12">
+        <TextView
+            android:text="Text"
+            android:layout_width="201.9dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMonthName"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="3pt"
+            android:textSize="8pt"
+            android:width="60px"
+            android:layout_marginRight="52.8dp" />
+        <TextView
+            android:text="Text"
+            android:layout_width="177.3dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMonthCost"
+            android:textSize="6pt"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="3pt"
+            android:width="60px"
+            android:layout_marginLeft="0.0dp" />
+    </LinearLayout>
+</LinearLayout>

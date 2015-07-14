@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Selected Month"
+        android:layout_marginLeft="20px"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedMonth" />
+    <TextView
+        android:text="Click On Bar for More Details"
+        android:layout_marginLeft="20px"
+        android:textColor="#FFFFFF"
+        android:textSize="6pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedBarDay" />
+    <barchart.BarChartView
+        android:id="@+id/dailyBarChart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="20px" />
+</LinearLayout>

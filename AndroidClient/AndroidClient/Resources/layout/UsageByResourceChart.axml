@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Meter Category"
+        android:layout_marginLeft="20px"
+        android:textSize="8pt"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedMeterCategory" />
+    <TextView
+        android:text="Click On Bar for More Details"
+        android:layout_marginLeft="20px"
+        android:textSize="6pt"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedBar" />
+    <barchart.BarChartView
+        android:id="@+id/barChart1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginBottom="20px" />
+</LinearLayout>
